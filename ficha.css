@@ -1,0 +1,176 @@
+#body {
+    background-color: rgba(173, 172, 191, 0.361);
+    font-family: 'Open Sans', coursive;
+}
+#navbarra{
+    background-color: transparent;
+    font-weight: 400;
+}
+
+#btnacord{
+    background-color: #7190c5c9;
+    color: black;
+    border: 1px solid white;
+}
+
+.dest2 {
+    background-color: #BDD8F4;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding-left: 4px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+.dest2 >p>select{
+    width: 40%;
+    border-radius: 10px;
+}
+banner {
+    display: block;
+
+}
+#input{
+    width: 10%;
+}
+.inputs {
+    width: 50%;
+    height: 100%;
+    background-color: #E4F1FF;
+    border: none;
+    border-radius: 5px;
+    margin: 0 0 10px 0px;
+}
+
+.input3{
+    width: 25%;
+}
+
+
+.accordion-body {
+    background-color: #BDD8F4;
+}
+
+.btn-outline-danger {
+    width: 18%;
+    font-size: 100%;
+}
+
+.titles {
+    margin-left: 10px;
+}
+
+.accordion {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 1%;
+    filter: drop-shadow(0 0 10px #BDD8F4);
+}
+
+.causas {
+    font-weight: 400;
+    line-height: 25px;
+    column-count: 3;
+    display: block;
+}
+#causa{
+    font-weight: 400;
+    line-height: 25px;
+    column-count: 3;
+    display: block;
+}
+#causa1{
+    column-count: 2;
+
+}
+
+/* Criar o checkbox customizado */
+.checkmark {
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 2px;
+}
+
+/* Adicionar uma cor de fundo cinza ao passar o mouse */
+.dest3:hover input.checkmark {
+    background-color: #ccc;
+}
+
+/* Quando o checkbox é clicado,adicionar um fundo rosa  */
+.dest3 input:checked.checkmark{
+    background-color: #ff0a54;
+}
+.dest3 .checkmark:after { 
+    -webkit-transform: rotate(45deg);
+    content:"";
+    position: absolute;
+    display: none;
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -ms-transform: rotate(45deg); transform: rotate(45deg);
+    }
+     /* Exibir o ícone quando selecionado */
+    .container input:checked~ .checkmark:after {
+        display: block;
+     }
+    /* Tabela */
+#table tr{
+    
+    text-align: center;
+}
+.dest4{
+    width: 90%;
+    max-width: 90%;
+}
+
+.check2{
+    width: 50%;
+}
+.form-check-input{
+    width: 987654323px;
+}
+.press{
+    display: flex;
+}
+.sodps .hidden {
+    display: none;
+}
+
+  #envio {
+    text-align: center;
+  }
+
+  #envio input[type="submit"] {
+    background-color: #005eff; /* Azul ciano */
+    border: 1px solid #fff; /* Borda branca de 1px */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno (ajuste conforme necessário) */
+    color: #fff; /* Cor do texto (branco) */
+    cursor: pointer; /* Cursor de mão para indicar que é um botão */
+  }
+
+.fotolocal{
+    column-count: 2;
+    display: flex;
+    gap: 10px;
+    margin-left: 10%;
+    background-color: white;
+}
+  .fotolocal >img{
+    height: 500px;
+  }
+
+.table >table{
+    margin-left: 60px;
+}
+
+.destaque {
+    margin-left: 60px;
+}

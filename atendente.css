@@ -1,0 +1,16 @@
+.card-header{
+    text-align: center;
+}
+.card{
+    width: 50%;
+    margin-top: 3%;
+    left: 3%;
+    right: 3%;
+}
+#card-title{
+    text-align: center;
+}
+#navbarra{
+    background-color: transparent;
+    font-weight: 400;
+}
